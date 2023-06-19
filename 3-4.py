@@ -1,0 +1,5 @@
+number_1 = float(input('enter 1 number'))
+number_2 = float(input('enter 2 number'))
+number_3 = float(input('enter 3 number'))
+print('Quantity of negative numbers: ', (number_1 < 0) + (number_2 < 0) + (number_3 < 0))
+print('Quantity of positive numbers: ', (number_1 > 0) + (number_2 > 0) + (number_3 > 0))
